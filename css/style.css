@@ -12,9 +12,19 @@ body {
 
 .container {
 	margin: 0 auto;
-	width: 1170px;
+	width: 775px;
 }
 
+.container h1{
+	text-align: left;
+	display:inline-block;
+	height:8px;
+	font-size:20px;
+	font-family: sans-serif;
+	padding-bottom:10px;
+	font-weight:bold;
+
+}
 .clear {
 	clear: both;
 }
@@ -41,3 +51,16 @@ body { width: 100%;}
 /********************************************
 * Your CSS rules go down here
 ********************************************/
+
+header{
+	background-color:lightblue;
+	width:100%
+}
+
+.instructions{
+	border: 5px solid lightgrey;
+}
+
+.pull-left{
+	float:left;
+}
