@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-	margin: 0 auto;
+	margin: auto;
 	width: 775px;
 }
 
@@ -20,13 +20,21 @@ body {
 	display:inline-block;
 	height:8px;
 	font-size:20px;
-	font-family: sans-serif;
+	font-family: Arial,sans-serif;
 	padding-bottom:10px;
-	font-weight:bold;
-
 }
+
+
 .clear {
 	clear: both;
+}
+
+.shields{
+	height:120px;
+	background-color:lightskyblue;
+	padding-top: 15px;
+	padding-left: 15px;
+
 }
 
 /***
@@ -42,6 +50,7 @@ body { width: 100%;}
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	font-family: sans-serif;
 }
 
 .sfooter-content {
@@ -53,14 +62,70 @@ body { width: 100%;}
 ********************************************/
 
 header{
-	background-color:lightblue;
-	width:100%
+	background-color:lightskyblue;
+	width:100%;
+
 }
 
 .instructions{
-	border: 5px solid lightgrey;
+	border: 3px solid lightgrey;
+	margin-top: 20px;
+	font-size: 10px;
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:13px;
+	height:120px;
+	font-size:11px;
+
 }
+
+
 
 .pull-left{
 	float:left;
+	margin-right: 15px;
+	border: 3px solid lightgrey;
+	height: 200px;
+	width: auto;
+}
+
+.pull-right{
+	float:right;
+	height: 80px;
+	width: auto;
+	border: 3px solid lightgrey;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+.container div h2{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+.container div p{
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+}
+
+.container div h3{
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+
+footer{
+	height: 53px;
+	width: 100%;
+	background-color:black;
+	margin-top: 30px;
+	margin-bottom: 1px;
+}
+
+
+footer .container p{
+	background-color:black;
+	color:darkslategrey;
+	font-size: 8px;
+	padding-top: 15px;
+	font-family: Arial, sans-serif;
+	font-style: oblique;
 }

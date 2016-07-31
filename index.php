@@ -35,8 +35,11 @@
 
 					<section class="clear">
 						<img class="pull-right" src="img/janeway.jpeg" alt="captain janeway is fierce" />
-						<h2>Shields up!</h2>
-						<p>I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.</p>
+						<div class="shields">
+							<h2>Shields up!</h2>
+							<p>I recommend we transfer power to phasers and arm the photon torpedoes. Something strange on the detector circuit. The weapons must have disrupted our communicators. You saw something as tasty as meat, but inorganically materialized out of patterns used by our transporters. Captain, the most elementary and valuable statement in science, the beginning of wisdom, is 'I do not know.' All transporters off.</p>
+						</div>
+
 						<div class="clear"></div>
 					</section>
 				</div>
